@@ -5,7 +5,7 @@
 ```shell
 mkdir ssr && \
 cd ssr && \
-curl https://raw.githubusercontent.com/linux-terminal/ssr-node/master/ssr.sh -o ssr.sh && \
+curl https://raw.githubusercontent.com/amfiyong/ssr-node/master/ssr.sh -o ssr.sh && \
 chmod +x ssr.sh && \
 bash ssr.sh
 ```
