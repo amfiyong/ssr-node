@@ -3,5 +3,9 @@
 
 ### 使用方法
 ```shell
-wget -N --no-check-certificate "https://raw.githubusercontent.com/linux-terminal/ssr-node/master/ssr.sh" && bash ssr.sh
+mkdir ssr && \
+cd ssr && \
+curl https://raw.githubusercontent.com/linux-terminal/ssr-node/master/ssr.sh -o ssr.sh && \
+chmod +x ssr.sh && \
+bash ssr.sh
 ```
